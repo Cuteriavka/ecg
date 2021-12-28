@@ -18,7 +18,7 @@ cp ../AUTHORS.txt .
 cp ../dependencies.txt .
 cp ../evaler.py .
 
-pip download -r ../requirements.txt -d packages
+#pip download -r ../requirements.txt -d packages
 
 src_dir='../../../../ecg'
 for f in 'util.py' 'load.py' 'network.py'; do

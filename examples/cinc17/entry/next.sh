@@ -24,7 +24,7 @@ set -o pipefail
 RECORD=$1
 
 # || true so we can run locally
-source myenv/bin/activate || true
-
+#source myenv/bin/activate || true
+source D:/Works/Python_workspace/tens_ecg/ecg/examples/cinc17/entry/myenv/Scripts/activate || true
 printf "$RECORD," >> answers.txt
 python evaler.py $RECORD >> answers.txt

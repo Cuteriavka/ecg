@@ -9,6 +9,7 @@ import numpy as np
 import os
 import random
 import time
+import tensorflow
 
 import network
 import load
